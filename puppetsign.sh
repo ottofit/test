@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo puppet cert list | grep e13t-mbx | cut -d " " -f3 | sed -s "s|\"| |g" | sudo xargs puppet cert sign
 
-
+ primoedit
 #!/bin/bash
 echo "Ricerca MX per zona"
 
